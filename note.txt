@@ -1,0 +1,13 @@
+CLASSE
+    function1
+    function2
+
+CARRO
+    roda
+        frente
+    volante
+
+CARRO.roda.frente()
+-------------------------------------------
+
+o comando :.2f é utilizado para trabalhar com casas decimais, mais utilizado para moeda monetária.

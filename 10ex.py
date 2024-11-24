@@ -7,8 +7,11 @@ clientes = {
     'Empresa E': 20000.00
 }
 
+def positionKey(item):
+    return item[1]
+
 # Ordenando os clientes pelo valor total de compras (do maior para o menor)
-clientes_ordenados = dict(sorted(clientes.items(), key=lambda item: item[1], reverse=True))
+clientes_ordenados = dict(sorted(clientes.items(), key=positionKey, reverse=True))
 
 # Imprimindo o relatório
 print("Relatório de Clientes Potenciais:")
