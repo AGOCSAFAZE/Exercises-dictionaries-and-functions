@@ -1,3 +1,6 @@
+from tkinter.filedialog import test
+
+
 pergunta = str(input('coloque uma das palavras chaves: '))
 dici = {'alex' 'modas'}
 
@@ -6,3 +9,4 @@ if pergunta in dici:
 else:
         print('palavra chave incorreta')
     
+#teste
